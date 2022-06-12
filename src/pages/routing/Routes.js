@@ -14,7 +14,7 @@ import Post from '../post/Post';
 import TeamMember from '../team/Member'
 import AddMember from '../team/AddMember'
 import NotFound from '../layout/NotFound';
-import PrivateRoute from '../routing/PrivateRoute';
+import PrivateRoute from './PrivateRoute';
 
 const Routes = props => {
   return (

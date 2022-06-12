@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
-import Landing from './components/layout/Landing';
-import Routes from './components/routing/Routes';
+import Navbar from './pages/layout/Navbar';
+import Landing from './pages/layout/Landing';
+import Routes from './pages/routing/Routes';
 import { LOGOUT } from './actions/types';
 
 // Redux

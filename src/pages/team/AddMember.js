@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import Switch from "react-switch";
-import Input from "../../assets/Input";
-import { GrayButton, BlueButton } from "../../assets/Buttons";
+import Input from "../../components/Input";
+import { GrayButton, BlueButton } from "../../components/Buttons";
 import { Typography, Grid, Box } from "@mui/material";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";

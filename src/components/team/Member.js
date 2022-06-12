@@ -40,7 +40,12 @@ const TeamMember = () => {
             <Input label="Member Name" placeholder="Member Name" />
           </Grid>
         </Grid>
-        <Grid item xs={2} alignSelf="center">
+        <Grid
+          item
+          xs={2}
+          alignSelf="center"
+          sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+        >
           <Switch
             onColor="#2400FF"
             checkedIcon={false}
@@ -48,6 +53,7 @@ const TeamMember = () => {
             onChange={handleChange1}
             checked={checked1}
           />
+          <Typography>Manager</Typography>
         </Grid>
       </Grid>
       <Grid container spacing={2} sx={{ my: 1 }}>
@@ -62,7 +68,12 @@ const TeamMember = () => {
             <Input label="Member Name" placeholder="Member Name" />
           </Grid>
         </Grid>
-        <Grid item xs={2} alignSelf="center">
+        <Grid
+          item
+          xs={2}
+          alignSelf="center"
+          sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+        >
           <Switch
             onColor="#2400FF"
             checkedIcon={false}
@@ -70,6 +81,7 @@ const TeamMember = () => {
             onChange={handleChange2}
             checked={checked2}
           />
+          <Typography>Manager</Typography>
         </Grid>
       </Grid>
       <Grid container spacing={2} sx={{ my: 1 }}>

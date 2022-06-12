@@ -12,7 +12,7 @@ import Profile from '../profile/Profile';
 import Posts from '../posts/Posts';
 import Post from '../post/Post';
 import TeamMember from '../team/Member'
-import TeamMember from '../team/AddMember'
+import AddMember from '../team/AddMember'
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
 

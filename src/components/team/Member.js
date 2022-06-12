@@ -15,7 +15,7 @@ const TeamMember = () => {
   };
 
   const handleChange2 = (value) => {
-    setChecked2(value); s
+    setChecked2(value);
   };
 
   return (

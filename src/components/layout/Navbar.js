@@ -17,10 +17,12 @@ const Logo = styled.p`
   color: #2400ff;
   font-size: 42px;
   font-weight: 800;
+  letter-spacing: -3px;
 `;
 
 const Version = styled.p`
   color: black;
   font-size: 18px;
   margin-left: 10px;
+  margin-bottom: 10px;
 `;
